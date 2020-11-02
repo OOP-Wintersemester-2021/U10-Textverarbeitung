@@ -36,22 +36,22 @@ header-includes: |
 
 Schreiben Sie eine Klasse `Remover `mit einer statischen Methode
 
-`public static String removeOccurrences``(String str, char ch)`
+`public static String removeOccurrences(String str, char ch)`
 
 die alle Zeichen `ch `aus `str `löscht und das Ergebnis wie folgend
 zurückgibt:
 
-`Remover.removeOccurrences("’This is a test"’, ’t’)` **gibt zurück:**
+`Remover.removeOccurrences("This is a test", 't')` **gibt zurück:**
 
-`"’This is a es"’`\
+`"This is a es"`\
 
-`Remover.removeOccurrences("’Summer is here"’, ’e’)` **gibt zurück:**
+`Remover.removeOccurrences("Summer is here", 'e')` **gibt zurück:**
 
-`"’Summr is hr"’`\
+`"Summr is hr"`\
 
-`Remover.removeOccurrences("’—0—"’, ’-’)` **gibt zurück:**
+`Remover.removeOccurrences("—0—", '-')` **gibt zurück:**
  
- `"’0"’`
+ `"0"`
 
 Beachten Sie, dass Sie kein Objekt einer Klasse erstellen müssen, wenn
 Sie lediglich statische Methoden (wie in diesem Fall) nutzen.
@@ -98,7 +98,7 @@ Trennzeichen für das Objekt entsprechend des Parameters. Wird kein
 gültiges Trennzeichen übergeben, soll das Komma verwendet werden. Ein
 Objekt dieser Klasse soll nun also mit der Methode
 
-`public String addSeparatorToNumericString``(String digits)`
+`public String addSeparatorToNumericString(String digits)`
 
 einen übergebenen Text aus Zahlen mit Trennzeichen an jeder dritten
 Position von rechts zurückgeben.
@@ -126,7 +126,7 @@ Das Wort **FARM** ist folglich 9 Punkte wert: 4 für das F, jeweils einen für A
 Schreiben Sie eine Klasse `ScrabbleScoreChecker `mit einer statischen
 Methode
 
-`public static int getWordScore``(String str)`
+`public static int getWordScore(String str)`
 
 welche die Punkte für ein übergebenes Wort zurückgibt. Um zu überprüfen, wie viele Punkte ein einzelner `char `bringt, können
 Sie die einzelnen Buchstaben in jeweils einem String pro Gruppe
