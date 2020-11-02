@@ -43,11 +43,11 @@ zurückgibt:
 
 `Remover.removeOccurrences("This is a test", 't')` **gibt zurück:**
 
-`"This is a es"`\
+`"This is a es"`
 
 `Remover.removeOccurrences("Summer is here", 'e')` **gibt zurück:**
 
-`"Summr is hr"`\
+`"Summr is hr"`
 
 `Remover.removeOccurrences("—0—", '-')` **gibt zurück:**
  
@@ -64,8 +64,10 @@ ein Punkt sein.
 
 Eine Million würde zum Beispiel folgendermaßen geschrieben:
 
-1,000,000\
-1.000.000\
+1,000,000
+
+1.000.000
+
 1 000 000
 
 Um die Darstellung solcher Zahlen zu vereinfachen, sollen Sie nun eine
