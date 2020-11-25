@@ -1,6 +1,6 @@
 ---
-title: Übungsblatt 9
-author: Zuletzt bearbeitet von Lukas Schauhuber
+title: Übungsblatt 10
+author: Zuletzt bearbeitet von Jürgen Hahn
 documentclass: scrartcl
 classoption:
   - a4paper
@@ -12,16 +12,16 @@ header-includes: |
     \pagestyle{fancy}
     \fancyhf{}
     \rhead{OOP WS 2020/21}
-    \lhead{U00 | Template}
+    \lhead{U10 | Übungsblatt 10}
     \cfoot{\includegraphics[height=2cm]{docs/footer.png}}
     \fancypagestyle{plain}{
       \fancyhf{}
       \rhead{OOP WS 2020/21}
-      \lhead{U00 | Template}
+      \lhead{U10 | Übungsblatt 10}
       \cfoot[C]{\includegraphics[height=2cm]{docs/footer.png}}}
 ---
 
-# Übungsblatt 9
+# Übungsblatt 10
 
 ## Wichtige Informationen zur Bearbeitung der Aufgabe 
 
