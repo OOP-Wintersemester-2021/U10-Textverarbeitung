@@ -112,7 +112,6 @@ seiner Häufigkeit in der entsprechenden Sprache abhängt.
 
 Für die englische Version gelten die folgenden Punktzahlen:
 
-  
 | **Punkte** |          **Buchstaben**            |
 | --- | --- |
 | 1 |             A, E, I, L, N, O, R, S, T, U    | 
