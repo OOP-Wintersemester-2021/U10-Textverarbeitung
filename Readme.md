@@ -41,17 +41,17 @@ Schreiben Sie eine Klasse `Remover `mit einer statischen Methode
 die alle Zeichen `ch `aus `str `löscht und das Ergebnis wie folgend
 zurückgibt:
 
-`Remover.removeOccurrences(\"This is a test\", \'t\')` **gibt zurück:**
+`Remover.removeOccurrences("This is a test", ``t``)` **gibt zurück:**
 
-`\"This is a es\"`
+`"This is a es"`
 
-`Remover.removeOccurrences("Summer is here\", \'e\')` **gibt zurück:**
+`Remover.removeOccurrences("Summer is here", ``e``)` **gibt zurück:**
 
-`\"Summr is hr\"`
+`"Summr is hr"`
 
-`Remover.removeOccurrences(\"—0—\", \'-\')` **gibt zurück:**
+`Remover.removeOccurrences("—0—", ``-``)` **gibt zurück:**
  
- `\"0\"`
+ `"0"`
 
 Beachten Sie, dass Sie kein Objekt einer Klasse erstellen müssen, wenn
 Sie lediglich statische Methoden (wie in diesem Fall) nutzen.
