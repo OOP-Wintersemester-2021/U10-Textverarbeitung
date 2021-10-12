@@ -1,38 +1,10 @@
----
-title: Übungsblatt 10
-author: Zuletzt bearbeitet von Jürgen Hahn
-documentclass: scrartcl
-classoption:
-  - a4paper
-header-includes: |
-    \usepackage{german} 
-    \usepackage[a4paper,left=2.5cm, right=2.5cm,top=2.5cm, bottom=3cm]{geometry}
-    \usepackage{fancyhdr}
-    \usepackage{graphicx}
-    \pagestyle{fancy}
-    \fancyhf{}
-    \rhead{OOP WS 2020/21}
-    \lhead{U10 | Übungsblatt 10}
-    \cfoot{\includegraphics[height=2cm]{docs/footer.png}}
-    \fancypagestyle{plain}{
-      \fancyhf{}
-      \rhead{OOP WS 2020/21}
-      \lhead{U10 | Übungsblatt 10}
-      \cfoot[C]{\includegraphics[height=2cm]{docs/footer.png}}}
----
+# U10 | Textverarbeitung
 
-# Übungsblatt 10
-
-## Wichtige Informationen zur Bearbeitung der Aufgabe 
-
- - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://elearning.uni-regensburg.de/mod/book/view.php?id=1480675)
- - [Informationen zum Im- und Export von Projekten](https://elearning.uni-regensburg.de/mod/book/view.php?id=1480675&chapterid=51551)
- 
-**Hinweis:** Erstellen Sie für ein neues IntelliJ-Projekt für dieses Übungsblatt. Erzeugen Sie für jede der Aufgaben ein sinnvoll benanntes
+Erstellen Sie für ein neues IntelliJ-Projekt für dieses Übungsblatt. Erzeugen Sie für jede der Aufgaben ein sinnvoll benanntes
 `package` im `src`-Ordner des Projekts. Erstellen Sie eine `StringApp`-Klasse mit einer `main`-Methode, um die verschiedenen Klassen des
 Übungsblatts zu instanziieren und zu testen. Prüfen Sie mit verschiedenen `Strings` die Funktionsweise.
 
-### **Delete Character**
+## **Delete Character**
 
 Schreiben Sie eine Klasse `Remover `mit einer statischen Methode
 
@@ -63,7 +35,7 @@ Remover.removeOccurrences("—0—", `-`)
 Beachten Sie, dass Sie kein Objekt einer Klasse erstellen müssen, wenn
 Sie lediglich statische Methoden (wie in diesem Fall) nutzen.
 
-### **NumberDelimiter**
+## **NumberDelimiter**
 
 Beim Schreiben von besonders großen Zahlen ist es üblich, ein
 Tausender-Trennzeichen zu benutzen, um die Ziffernfolge in Dreiergruppen zu unterteilen. Dieses Trennzeichen kann ein Leerzeichen, ein Komma oder
@@ -112,7 +84,7 @@ Objekt dieser Klasse soll nun also mit der Methode
 einen übergebenen Text aus Zahlen mit Trennzeichen an jeder dritten
 Position von rechts zurückgeben.
 
-### **Scrabble Score**
+## **Scrabble Score**
 
 In Scrabble ist jedem Buchstaben eine Punktzahl zugeordnet, die von
 seiner Häufigkeit in der entsprechenden Sprache abhängt.
