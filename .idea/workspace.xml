@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a90d95-7de2-4b3a-b274-988b3f618cec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/numberdelimiter/NumberDelimiter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/remover/Remover.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scrabble/ScoreChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Remover.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634035163238</updated>
       <workItem from="1634035164636" duration="216000" />
+      <workItem from="1634037055541" duration="81000" />
     </task>
     <servers />
   </component>
@@ -79,5 +75,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
