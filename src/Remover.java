@@ -1,4 +1,3 @@
-package remover;
 public class Remover {
 
     public static String removeOccurrences(String str, char ch) {
